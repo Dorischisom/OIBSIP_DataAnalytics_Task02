@@ -192,5 +192,7 @@ This analysis provides a strong foundation for understanding key drivers of app 
 
 - Analysis of specific monetization strategies (e.g., IAP, subscription) within different categories.
 
+### View the complete analysis in the `Googleplay Analysis (1).ipynb` file
+
 
 
