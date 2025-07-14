@@ -94,7 +94,7 @@ apps_df['Price'] = pd.to_numeric(apps_df['Price'], errors='coerce').fillna(0.0)
 ## Analysis & Insights
 I conducted several analyses to uncover factors influencing app growth and retention.
 
-**1. Initial Correlations with Installs**
+### 1. Initial Correlations with Installs
 - Objective: To understand if simple linear relationships exist between app characteristics (Rating, Size, Price) and the number of installs.
 - Methodology: Calculated Pearson correlation coefficients between 'Rating', 'Size', 'Price', and 'Installs' in apps_df.
 
@@ -109,7 +109,7 @@ I conducted several analyses to uncover factors influencing app growth and reten
 ![App Price vs. Number of Installs Scatter Plot](App_price/App_price.png)
 
 
-**2. Category-Specific Performance**
+### 2. Category-Specific Performance
 - Objective: To identify which app categories demonstrate the highest user demand and their general characteristics.
 - Methodology: Grouped apps_df by 'Category' and calculated the total 'Installs', average 'Rating', average 'Size', and average 'Price' for each category.
 
@@ -122,7 +122,7 @@ I conducted several analyses to uncover factors influencing app growth and reten
 
 ![Top 20 App Categories by Total Installs Bar Chart](Top_20/Top_20.png)
 
-**3. Top-Performing Apps**
+### 3. Top-Performing Apps
 - Objective: To analyze the specific characteristics of apps that achieve either massive installs or exceptionally high user ratings.
 - Methodology:
     - Identified the top 10 apps by 'Installs'.
@@ -134,7 +134,7 @@ I conducted several analyses to uncover factors influencing app growth and reten
 
 - **Top by Rating (4.9 with many reviews):** These apps are more diverse, spanning niche categories like **Education, Health & Fitness, Beauty, and specialized tools.** They demonstrate exceptional user satisfaction and highlight that quality and meeting specific user needs are crucial, even if not reaching billions of installs. Some top-rated apps are paid, indicating users will pay for perceived high value.
 
-**4. Content Rating Impact on Installs**
+### 4. Content Rating Impact on Installs
 - Objective: To determine how an app's content rating (target audience) influences its overall popularity.
 - Methodology: Grouped apps_df by 'Content Rating' and calculated total 'Installs' and average 'Rating'.
 
@@ -146,10 +146,11 @@ I conducted several analyses to uncover factors influencing app growth and reten
 
 - **Niche Quality:** While smaller in install volume, ratings for "Mature 17+" and "Adults only 18+" apps maintain good average ratings, suggesting success within specialized audiences.
 
-![Total Installs by Content Rating Bar Chart](Top_installs/Top_installs.png)
+![Total Installs by Content Rating Bar Chart](Total_installs/Total_installs.png)
 
 
-**5. Consolidated Strategies for Growth & Retention**
+### 5. Consolidated Strategies for Growth & Retention
+
 Based on the insights derived from this analysis, here's a consolidated set of strategies:
 
 - **Strategies for Growth (User Acquisition):**
@@ -167,13 +168,13 @@ Prioritize Mass-Market Categories: Focus app development and marketing on catego
 
 - **Obsess Over Quality and User Experience:** Regardless of category or target audience, delivering an exceptional user experience is the cornerstone of high ratings and long-term user retention. This includes intuitive design, reliable performance, and valuable features.
 
--**Identify and Serve Niche Needs Exceptionally Well:** For apps not aiming for billions of installs, finding and excelling in a specific niche can lead to highly engaged and satisfied users, resulting in strong retention and positive word-of-mouth.
+- **Identify and Serve Niche Needs Exceptionally Well:** For apps not aiming for billions of installs, finding and excelling in a specific niche can lead to highly engaged and satisfied users, resulting in strong retention and positive word-of-mouth.
 
 - **Maintain High Ratings:** Continuously strive for a 4.0+ rating by listening to user feedback and iteratively improving the app. High ratings build trust and are crucial for retention.
 
 - **Justify Paid Models with Superior Value:** If opting for a paid app, ensure the product offers distinctive and superior value that users are clearly willing to pay for, as demonstrated by some of the highly-rated paid apps.
 
-**6. Conclusion & Next Steps**
+### 6. Conclusion & Next Steps
 
 This analysis provides a strong foundation for understanding key drivers of app success in the app store. While simple linear correlations are not strong, the aggregate performance of categories and the characteristics of top-performing apps offer clear strategic directions.
 
@@ -184,4 +185,6 @@ This analysis provides a strong foundation for understanding key drivers of app 
 - Time-series analysis if release dates and update frequencies were available, to see impact on installs/ratings.
 
 - Analysis of specific monetization strategies (e.g., IAP, subscription) within different categories.
+
+
 
