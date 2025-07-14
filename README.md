@@ -2,15 +2,21 @@
 
 ## Table of Contents
 1.  [Introduction](#1-introduction)
-2.  [Data Description](#3-data-description)
-3.  [Data Loading & Initial Cleaning](#4-data-loading--initial-cleaning)
-4.  [Analysis & Insights](#5-analysis--insights)
-    * [5.1. Initial Correlations with Installs](#51-initial-correlations-with-installs)
-    * [5.2. Category-Specific Performance](#52-category-specific-performance)
-    * [5.3. Top-Performing Apps](#53-top-performing-apps)
-    * [5.4. Content Rating Impact on Installs](#54-content-rating-impact-on-installs)
-5.  [Consolidated Strategies for Growth & Retention](#6-consolidated-strategies-for-growth--retention)
-6.  [Conclusion & Next Steps](#7-conclusion--next-steps)
+2.  [Data Files](#data-files)
+3.  [Data Description](#data-description)
+    * [`apps_saved.xls` (Apps Informations)](#apps_savedxls-apps-informations)
+    * [`user_reviews_saved.xls` (User Reviews)](#user_reviews_savedxls-user-reviews)
+4.  [Data Loading & Initial Cleaning](#data-loading--initial-cleaning)
+    * [Key Cleaning Steps (applied to apps_df primarily)](#key-cleaning-steps-applied-to-apps_df-primarily)
+5.  [Analysis & Insights](#analysis--insights)
+    * [1. Initial Correlations with Installs](#1-initial-correlations-with-installs)
+    * [2. Category-Specific Performance](#2-category-specific-performance)
+    * [3. Top-Performing Apps](#3-top-performing-apps)
+    * [4. Content Rating Impact on Installs](#4-content-rating-impact-on-installs)
+6.  [Consolidated Strategies for Growth & Retention](#5-consolidated-strategies-for-growth--retention)
+    * [Strategies for Growth (User Acquisition)](#strategies-for-growth-user-acquisition)
+    * [Strategies for Retention (User Engagement & Satisfaction)](#strategies-for-retention-user-engagement--satisfaction)
+7.  [Conclusion & Next Steps](#6-conclusion--next-steps)
 
 
 ## 1. Introduction
